@@ -7,7 +7,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 
 # 1. Đọc dữ liệu
-df = pd.read_csv("D:\BaiTap\TriTueNhanTao\BaiTap\BTL\Artificial_Neural_Network_Case_Study_data.csv")
+df = pd.read_csv("Artificial_Neural_Network_Case_Study_data.csv")
 
 # 2. Xử lý dữ liệu
 df = df.drop(columns=["RowNumber", "CustomerId", "Surname"])
@@ -45,5 +45,5 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 model.fit(X_train, y_train, epochs=50, batch_size=32, validation_data=(X_test, y_test))
 
 # 7. Lưu mô hình
-model.save("bank_churn_model.h5")
+model.save("Artificial_Neural_Network_Case_Study.h5")
 print("Mô hình đã được lưu thành công!")
