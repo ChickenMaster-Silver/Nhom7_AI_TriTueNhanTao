@@ -1,4 +1,4 @@
-Đề tài của bọn em là về dụe đoán khách hàng rời bỏ ngân hàng bằng mô hình mạng NEURON
+Đề tài của bọn em là về Dự đoán khách hàng rời bỏ ngân hàng bằng mô hình mạng NEURON
 
 kiến trúc của mô hình mạng neuron (model.summary()) trong Keras
 
